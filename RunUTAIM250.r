@@ -1,5 +1,5 @@
 RunAdmixture <- function(sampleVCF,sampleNames
-                         ,ref.genome = c("GRCh38","GRCh37"),temp, PopCode_data = "1000G_1652_PopCode.txt",Str_Path,AIM250_pos = TURE,chr.label = FALSE){
+                         ,ref.genome = c("GRCh38","GRCh37"),temp, PopCode_data = "1000G_1652_PopCode.txt",Str_Path,AIM250_pos = TRUE,chr.label = FALSE){
   setwd("~/admixture/Admixture_all_function/")
   ##Requirement tools
   #1.VCFtools version 0.1.15
